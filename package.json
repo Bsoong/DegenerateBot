@@ -1,0 +1,25 @@
+{
+  "name": "degeneratebot",
+  "version": "1.0.0",
+  "description": "DiscordBot for Degenerates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node startup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bsoong/DegenerateBot.git"
+  },
+  "author": "Bsoongah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bsoong/DegenerateBot/issues"
+  },
+  "homepage": "https://github.com/Bsoong/DegenerateBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
