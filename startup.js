@@ -17,6 +17,6 @@ client.once('ready', () => {
     console.log("Degenerate bot is ready to be a degenerate.")
 })
 
-require('./listeners/assignRole.js')(client)
-
+require('./listeners/assignRole.js')(client);
+require('./listeners/onJoin.js')(client);
 client.login(TOKEN);

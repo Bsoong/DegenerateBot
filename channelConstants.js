@@ -1,6 +1,6 @@
 module.exports = {
     prefix: "!",
-    commands: ["rolet",],
+    commands: ["roles",],
     roles: {
         "valorant": "703280304961617980",
         "csgo": "715267376345776368",
@@ -20,5 +20,6 @@ module.exports = {
     channels: {
         "botCommands": "665061052769239061",
         "testChannel": "715691268713218090",
+        "welcome": "715674254376435823",
     },
 }
